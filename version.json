@@ -1,4 +1,316 @@
 {
-  "version": "1.0.0",
-  "files": []
+  "schema": 1,
+  "id": "pepaworld-3",
+  "version": "3.0.1",
+  "revision": 2,
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.250",
+  "server": "45.43.163.21:25570",
+  "createdAt": "2026-09-21T17:32:53.350Z",
+  "warnings": [
+    "Wheel Of Wacky 0.2.2: el JAR original publicado contiene variables sin resolver en neoforge.mods.toml. Requiere prueba real con Connector.",
+    "No se ha validado todavía el arranque del cliente gráfico ni la conexión a PepaWorld 3.0."
+  ],
+  "files": [
+    {
+      "path": "config/astages/astages-common.toml",
+      "size": 4302,
+      "sha256": "6f00cc4624f18cbd007f673ece4476d9ca8e35f03213d37bcd548fa8d28fa18c",
+      "policy": "managed"
+    },
+    {
+      "path": "config/astages/simple/astages/dimension.json",
+      "size": 217,
+      "sha256": "e6fb21611616f1f6c8e2cc68eab6e8ad8fbd83c96c86cd26936c621c9c5e5a11",
+      "policy": "managed"
+    },
+    {
+      "path": "config/astages/simple/astages/item.json",
+      "size": 7447,
+      "sha256": "0249d24fbd9dbdc4e7cdda7a08e0c07d119ecd26f01134777e6cbc32b968d845",
+      "policy": "managed"
+    },
+    {
+      "path": "config/astages/simple/astages/mod.json",
+      "size": 208,
+      "sha256": "5b5e73dbdefb1ebae28601c8c34d28a3cb6ed60a65c2b053cc9ae09fab06ae9a",
+      "policy": "managed"
+    },
+    {
+      "path": "config/curios-common.toml",
+      "size": 155,
+      "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674",
+      "policy": "managed"
+    },
+    {
+      "path": "config/CustomNpcs.cfg",
+      "size": 2525,
+      "sha256": "5c85e77a77b1959d487387235f74487add4d0ff40ac9fab9149ab1a03912c0d1",
+      "policy": "managed"
+    },
+    {
+      "path": "config/sereneseasons/fertility.toml",
+      "size": 468,
+      "sha256": "7bba1bf89adc6ae05213ca50cee151f9f3a50c77bae65594c52e716c37223625",
+      "policy": "managed"
+    },
+    {
+      "path": "config/sereneseasons/seasons.toml",
+      "size": 13662,
+      "sha256": "8e452efd6d5b6b5e427438ecac44339845cdd075a221fc1a1873d143ab2d55aa",
+      "policy": "managed"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "size": 6506,
+      "sha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/minecraft/lang/en_us.json",
+      "size": 44,
+      "sha256": "b40038b58f70e7838b143b519a80bc37f4c95438325a8932bc66cd693c850692",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/minecraft/lang/es_es.json",
+      "size": 44,
+      "sha256": "b40038b58f70e7838b143b519a80bc37f4c95438325a8932bc66cd693c850692",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/minecraft/textures/item/emerald.png",
+      "size": 2802,
+      "sha256": "42384e0b94b738776597b081226053b7ccc41b673407e08d05f3ee24ffe27ba4",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/comida_valores.js",
+      "size": 7576,
+      "sha256": "c853da4d16eabd7baddad448c0307b5ab9625ce6cd41f6f2814888500ab48113",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/[1.21.1] SecurityCraft v1.10.2.1.jar",
+      "size": 5193371,
+      "sha256": "75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/astages_curios-2.0.0-1.21.1.jar",
+      "size": 12503,
+      "sha256": "cf8f73e4a96fdd29813c45474e951146208aa2ccd29bb0e2262e951ffe613855",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/astages-2.5.3-1.21.1.jar",
+      "size": 978048,
+      "sha256": "8aa762e34068c498cb3fda14ebb9de95ddcfdc1b19154d1d8f9109af0729e75c",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/balm-neoforge-1.21.1-21.0.65.jar",
+      "size": 783793,
+      "sha256": "490fa5fcb7ca83a9b5a84e33c2832298db99d189131001b9277a1de7fdc0bf91",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/connector-2.0.0-beta.17+1.21.1-full.jar",
+      "size": 4573244,
+      "sha256": "5a4ad10e57b8b1690832d9b77fc488fbe5e7cf41ac5a90d9f569bd78fbea25be",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar",
+      "size": 253694,
+      "sha256": "80d984f0a17d968220129cc58edd5c9f28a5f61a84ec67dcc41228a46dfa4bb1",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "size": 410690,
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/CustomNPCs-Unofficial-NeoForge-1.21.1.20241226.jar",
+      "size": 10779627,
+      "sha256": "06edf28bb7b1887fa67eef6b3fa5db7a969bbbd4647cfe3db8838c68b11a3211",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+      "size": 5613421,
+      "sha256": "56cb524bcbb2430113f586d4d58ba79bfd66f73684c019aacb528690c3d8d07d",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ftb-library-neoforge-2101.1.36.jar",
+      "size": 1439427,
+      "sha256": "5122579e4d55d77057e98a1403b6006dde95d397976fc3c2ee7dd066747c696f",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ftb-quests-neoforge-2101.1.36.jar",
+      "size": 1609984,
+      "sha256": "6a39982c4b3afc00b1e788041a4f0d394e1659e3b3a6e5d078cd790bc36d0018",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ftb-teams-neoforge-2101.1.11.jar",
+      "size": 308236,
+      "sha256": "e6bcd670493624e6906df872a9c6af4a33fe6405cac57a32c59cd4cd5838c655",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+      "size": 630584,
+      "sha256": "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "size": 90717,
+      "sha256": "d9ea421e7449a35cf3adc41c9f740156342b7b17a08b1be843660608af7b60f9",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.12+mc1.21.1.jar",
+      "size": 2438548,
+      "sha256": "3e3f94d2d5cdcb8145c4385d521974aa2d8669b2cc212351f70cf06488182e83",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/irons_lib-1.21.1-2.1.0.jar",
+      "size": 406284,
+      "sha256": "3d0ad1003d6edeaad2500b9922267b4192d2c603cdd846fda339b168f4deff72",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/irons_spellbooks-1.21.1-3.16.3.jar",
+      "size": 13890045,
+      "sha256": "55a290db9b966e0c5d2f5c051d50775f3db6375cdb52730c4da528bcf5d5daa0",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/jei-1.21.1-neoforge-19.51.0.418.jar",
+      "size": 1804792,
+      "sha256": "8bc3936d869e4040a5649c58b7e8be1c78c82a245c0dc07bdd68ab49121a222c",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/journeymap-neoforge-1.21.1-6.0.8.jar",
+      "size": 4303084,
+      "sha256": "a19a52a067556fcce59c782976019f26531ff307eb29a0e597fa49a845c776ee",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/kubejs-neoforge-2101.7.2-build.377.jar",
+      "size": 2294111,
+      "sha256": "df9a8458b1f83fed06ba54684977911795a5153a462b81a610895f5b1f2f0cbf",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/L_Ender's Cataclysm 1.21.1-3.33.jar",
+      "size": 73375661,
+      "sha256": "23921a268acc8b695291f12e89c5e4c261ee5f59a3b6d763793461efb3e7e1d6",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/lightmanscurrency-1.21-2.3.0.5.jar",
+      "size": 8073046,
+      "sha256": "5d610dd9ca42b58039f54c92d3b05cc700e15d40b3d817ecb3ccb661d36dc761",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/lionfishapi-3.1.jar",
+      "size": 91596,
+      "sha256": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/lithostitched-1.7.13-neoforge-21.1.jar",
+      "size": 852541,
+      "sha256": "a90b1d485b138328ceaa156b7897b0829eb1ee1522b997870a53129ae65e5512",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/lootr-neoforge-1.21.1-1.11.38.125.jar",
+      "size": 1000464,
+      "sha256": "091878598fa5cb51cd304bf9324afe46420d328b6f77a9ba38acc15e26945e9e",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/openhud-neoforge-1.3.1+1.21.1.jar",
+      "size": 112631,
+      "sha256": "eb68100950f2ef7df07cae0e183b38a2d71706adb00892921fe3b6fb717d7f8f",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "size": 203149,
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/rhino-2101.2.7-build.85.jar",
+      "size": 882075,
+      "sha256": "e0e9b0e78edd380440266c0f4ea8d489dac851ef075a4566a66a6dae2f7bbb66",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "size": 159205,
+      "sha256": "86d89fce593f868cb6b542943c0f82850ca56970fe0327e401966d8d0420861d",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar",
+      "size": 1162994,
+      "sha256": "7acd7af2ef75ec883a6872c17494ead65e38025151eb08a1d60e36d34377f403",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "size": 2814865,
+      "sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/wacky_wheel-0.2.2.jar",
+      "size": 397736,
+      "sha256": "afc2b598587d2645882aba9692e3f2a3c8a27e315994c2fd3196d3d5df386367",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/waystones-neoforge-1.21.1-21.1.45.jar",
+      "size": 1219809,
+      "sha256": "02c78df4a5e774cdc741d2fec8a19dac5c918ca8bd18da47444a4270322ee937",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/xp_obelisk-neoforge-0.5.0+1.21.1.jar",
+      "size": 155251,
+      "sha256": "4097454321f282fc18b6d8d0fe8762b00420ecd50aa62f940bc341499b3db4c2",
+      "policy": "managed"
+    },
+    {
+      "path": "shaderpacks/superDuperVanilla.zip",
+      "size": 2851664,
+      "sha256": "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795",
+      "policy": "managed"
+    }
+  ]
 }
