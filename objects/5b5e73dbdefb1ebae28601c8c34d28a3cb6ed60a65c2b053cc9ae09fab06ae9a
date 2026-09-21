@@ -1,0 +1,12 @@
+[
+  {
+    "id": "simple/acceso_magia",
+    "stage": "edad_hierro",
+    "object": "irons_spellbooks"
+  },
+  {
+    "id": "simple/acceso_cataclysm",
+    "stage": "edad_netherita",
+    "object": "cataclysm"
+  }
+]

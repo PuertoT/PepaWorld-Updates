@@ -1,0 +1,317 @@
+[
+  {
+    "id": "simple/edad_piedra_pico",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_pickaxe"
+  },
+  {
+    "id": "simple/edad_piedra_pico",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_pickaxe"
+  },
+  {
+    "id": "simple/edad_piedra_hacha",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_axe"
+  },
+  {
+    "id": "simple/edad_piedra_espada",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_sword"
+  },
+  {
+    "id": "simple/edad_piedra_pala",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_shovel"
+  },
+  {
+    "id": "simple/edad_piedra_azada",
+    "stage": "edad_piedra",
+    "object": "minecraft:stone_hoe"
+  },
+  {
+    "id": "simple/edad_piedra_horno",
+    "stage": "edad_piedra",
+    "object": "minecraft:furnace"
+  },
+  {
+    "id": "simple/edad_piedra_esmeril",
+    "stage": "edad_piedra",
+    "object": "minecraft:grindstone"
+  },
+  {
+    "id": "simple/edad_hierro_pico",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_pickaxe"
+  },
+  {
+    "id": "simple/edad_hierro_hacha",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_axe"
+  },
+  {
+    "id": "simple/edad_hierro_espada",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_sword"
+  },
+  {
+    "id": "simple/edad_hierro_pala",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_shovel"
+  },
+  {
+    "id": "simple/edad_hierro_azada",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_hoe"
+  },
+  {
+    "id": "simple/edad_hierro_casco",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_helmet"
+  },
+  {
+    "id": "simple/edad_hierro_pechera",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_chestplate"
+  },
+  {
+    "id": "simple/edad_hierro_pantalones",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_leggings"
+  },
+  {
+    "id": "simple/edad_hierro_botas",
+    "stage": "edad_hierro",
+    "object": "minecraft:iron_boots"
+  },
+  {
+    "id": "simple/edad_hierro_escudo",
+    "stage": "edad_hierro",
+    "object": "minecraft:shield"
+  },
+  {
+    "id": "simple/edad_hierro_cubo",
+    "stage": "edad_hierro",
+    "object": "minecraft:bucket"
+  },
+  {
+    "id": "simple/edad_hierro_tijeras",
+    "stage": "edad_hierro",
+    "object": "minecraft:shears"
+  },
+  {
+    "id": "simple/edad_hierro_mechero",
+    "stage": "edad_hierro",
+    "object": "minecraft:flint_and_steel"
+  },
+  {
+    "id": "simple/edad_hierro_yunque",
+    "stage": "edad_hierro",
+    "object": "minecraft:anvil"
+  },
+  {
+    "id": "simple/edad_hierro_alto_horno",
+    "stage": "edad_hierro",
+    "object": "minecraft:blast_furnace"
+  },
+  {
+    "id": "simple/edad_hierro_mesa_herreria",
+    "stage": "edad_hierro",
+    "object": "minecraft:smithing_table"
+  },
+  {
+    "id": "simple/edad_hierro_cortapiedras",
+    "stage": "edad_hierro",
+    "object": "minecraft:stonecutter"
+  },
+  {
+    "id": "simple/edad_diamante_pico",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_pickaxe"
+  },
+  {
+    "id": "simple/edad_diamante_hacha",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_axe"
+  },
+  {
+    "id": "simple/edad_diamante_espada",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_sword"
+  },
+  {
+    "id": "simple/edad_diamante_pala",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_shovel"
+  },
+  {
+    "id": "simple/edad_diamante_azada",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_hoe"
+  },
+  {
+    "id": "simple/edad_diamante_casco",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_helmet"
+  },
+  {
+    "id": "simple/edad_diamante_pechera",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_chestplate"
+  },
+  {
+    "id": "simple/edad_diamante_pantalones",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_leggings"
+  },
+  {
+    "id": "simple/edad_diamante_botas",
+    "stage": "edad_diamante",
+    "object": "minecraft:diamond_boots"
+  },
+  {
+    "id": "simple/edad_diamante_encantamientos",
+    "stage": "edad_diamante",
+    "object": "minecraft:enchanting_table"
+  },
+  {
+    "id": "simple/edad_netherita_pico",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_pickaxe"
+  },
+  {
+    "id": "simple/edad_netherita_hacha",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_axe"
+  },
+  {
+    "id": "simple/edad_netherita_espada",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_sword"
+  },
+  {
+    "id": "simple/edad_netherita_pala",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_shovel"
+  },
+  {
+    "id": "simple/edad_netherita_azada",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_hoe"
+  },
+  {
+    "id": "simple/edad_netherita_casco",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_helmet"
+  },
+  {
+    "id": "simple/edad_netherita_pechera",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_chestplate"
+  },
+  {
+    "id": "simple/edad_netherita_pantalones",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_leggings"
+  },
+  {
+    "id": "simple/edad_netherita_botas",
+    "stage": "edad_netherita",
+    "object": "minecraft:netherite_boots"
+  },
+  {
+    "id": "simple/edad_hierro_cota_casco",
+    "stage": "edad_hierro",
+    "object": "minecraft:chainmail_helmet"
+  },
+  {
+    "id": "simple/edad_hierro_cota_pechera",
+    "stage": "edad_hierro",
+    "object": "minecraft:chainmail_chestplate"
+  },
+  {
+    "id": "simple/edad_hierro_cota_pantalones",
+    "stage": "edad_hierro",
+    "object": "minecraft:chainmail_leggings"
+  },
+  {
+    "id": "simple/edad_hierro_cota_botas",
+    "stage": "edad_hierro",
+    "object": "minecraft:chainmail_boots"
+  },
+  {
+    "id": "simple/edad_hierro_oro_pico",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_pickaxe"
+  },
+  {
+    "id": "simple/edad_hierro_oro_hacha",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_axe"
+  },
+  {
+    "id": "simple/edad_hierro_oro_espada",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_sword"
+  },
+  {
+    "id": "simple/edad_hierro_oro_pala",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_shovel"
+  },
+  {
+    "id": "simple/edad_hierro_oro_azada",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_hoe"
+  },
+  {
+    "id": "simple/edad_hierro_oro_casco",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_helmet"
+  },
+  {
+    "id": "simple/edad_hierro_oro_pechera",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_chestplate"
+  },
+  {
+    "id": "simple/edad_hierro_oro_pantalones",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_leggings"
+  },
+  {
+    "id": "simple/edad_hierro_oro_botas",
+    "stage": "edad_hierro",
+    "object": "minecraft:golden_boots"
+  },
+  {
+    "id": "simple/edad_hierro_ballesta",
+    "stage": "edad_hierro",
+    "object": "minecraft:crossbow"
+  },
+  {
+    "id": "simple/edad_hierro_brujula",
+    "stage": "edad_hierro",
+    "object": "minecraft:compass"
+  },
+  {
+    "id": "simple/edad_diamante_tridente",
+    "stage": "edad_diamante",
+    "object": "minecraft:trident"
+  },
+  {
+    "id": "simple/edad_diamante_totem",
+    "stage": "edad_diamante",
+    "object": "minecraft:totem_of_undying"
+  },
+  {
+    "id": "simple/edad_netherita_elitros",
+    "stage": "edad_netherita",
+    "object": "minecraft:elytra"
+  },
+  {
+    "id": "simple/edad_netherita_maza",
+    "stage": "edad_netherita",
+    "object": "minecraft:mace"
+  }
+]

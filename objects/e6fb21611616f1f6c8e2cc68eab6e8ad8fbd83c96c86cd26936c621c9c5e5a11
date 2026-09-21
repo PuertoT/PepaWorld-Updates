@@ -1,0 +1,12 @@
+[
+  {
+    "id": "simple/acceso_nether",
+    "stage": "edad_diamante",
+    "object": "minecraft:the_nether"
+  },
+  {
+    "id": "simple/acceso_end",
+    "stage": "edad_netherita",
+    "object": "minecraft:the_end"
+  }
+]

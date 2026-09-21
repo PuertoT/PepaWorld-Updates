@@ -1,0 +1,85 @@
+# Activa o desactiva el sistema de scripts de CustomNPCs.
+# Lo dejamos activado para poder crear NPCs, eventos y comportamientos avanzados.
+EnableScripting=true
+
+# Argumentos utilizados por la librería de scripting Nashorn.
+NashorArguments=-strict
+
+# Activa las burbujas de chat sobre los NPCs.
+EnableChatBubbles=true
+
+# Distancia de búsqueda utilizada por los NPCs para calcular rutas.
+# No se recomienda aumentarla porque puede afectar al rendimiento del servidor.
+NpcNavRange=32
+
+# Número máximo de NPCs que pueden aparecer de forma natural
+# dentro de un mismo chunk.
+NpcNaturalSpawningChunkLimit=4
+
+# Permite que las opciones de diálogo puedan ejecutar comandos
+# que normalmente requieren permisos de operador, como /tp.
+# Lo mantenemos desactivado por seguridad.
+NpcUseOpCommands=false
+
+# Si está activado, solo los operadores pueden utilizar
+# los comandos administrativos /noppes.
+NoppesCommandOpOnly=true
+
+# Activa la interfaz de inventario de CustomNPCs.
+InventoryGuiEnabled=true
+
+# Activa los botones relacionados con escenas.
+SceneButtonsEnabled=true
+
+# Activa el aviso de actualizaciones de CustomNPCs al iniciar.
+EnableUpdateChecker=true
+
+# Frase de interacción predeterminada de los NPCs.
+# @p representa al jugador que interactúa.
+# Déjalo vacío si no quieres ninguna frase predeterminada.
+DefaultInteractLine=Hola @p
+
+# Número máximo de NPCs capaces de mantener chunks cargados
+# que pueden estar activos simultáneamente.
+ChuckLoaders=20
+
+# Permite el deterioro normal de las hojas.
+LeavesDecayEnabled=true
+
+# Permite el crecimiento normal de las lianas.
+VineGrowthEnabled=true
+
+# Permite que el hielo se derrita normalmente.
+IceMeltsEnabled=true
+
+# Permite que jugadores normales utilicen Soulstone
+# sobre animales.
+SoulStoneAnimals=true
+
+# Permite que jugadores normales utilicen Soulstone
+# sobre NPCs personalizados.
+# Lo mantenemos desactivado para proteger comerciantes,
+# NPCs de misiones y otros personajes del servidor.
+SoulStoneNPCs=false
+
+# Tipo de objeto que puede llevarse en la cabeza.
+# 0 = Normal
+# 1 = Sólido
+HeadWearType=1
+
+# Fuente utilizada por CustomNPCs.
+# Minecraft = fuente de Minecraft
+# Default = OpenSans
+FontType=Default
+
+# Tamaño de la fuente personalizada.
+# No afecta a la fuente propia de Minecraft.
+FontSize=18
+
+# Activa NPCs invisibles.
+# Puede desactivarse si causa incompatibilidades con algún servidor o mod.
+EnableInvisibleNpcs=true
+
+# Define si los activadores de diálogo de NPCs
+# generan también un evento de chat.
+NpcSpeachTriggersChatEvent=false
