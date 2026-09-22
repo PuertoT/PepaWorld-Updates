@@ -6,7 +6,7 @@ URL maestra del launcher:
 
 https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/version.json
 
-La versión 3.0.1 (revisión 2) incluye SecurityCraft 1.10.2.1 para Minecraft 1.21.1 y NeoForge 21.1.250. El JAR es el archivo elegido por Puerto, con SHA-256 `75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229` y 5.193.371 bytes.
+La versión 3.0.1 (revisión 3) incluye SecurityCraft 1.10.2.1 para Minecraft 1.21.1 y NeoForge 21.1.250. El JAR es el archivo elegido por Puerto, con SHA-256 `75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229` y 5.193.371 bytes.
 
 ## Publicar una actualización
 
