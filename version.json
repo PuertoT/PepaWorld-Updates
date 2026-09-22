@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.2",
-  "revision": 4,
+  "version": "3.0.3",
+  "revision": 5,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-22T00:46:10.037Z",
+  "createdAt": "2026-09-22T17:04:04.318Z",
   "warnings": [
     "Wheel Of Wacky 0.2.2: el JAR original publicado contiene variables sin resolver en neoforge.mods.toml. Requiere prueba real con Connector.",
     "No se ha validado todavía el arranque del cliente gráfico ni la conexión a PepaWorld 3.0."
@@ -72,6 +72,12 @@
       "textSha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2"
     },
     {
+      "path": "kubejs/assets/kubejs/textures/item/nereasnack_ultimate.png.png",
+      "size": 920105,
+      "sha256": "aa8934a09c81d078c1f53cfa66400359b0c52afe1fb0061003d602d0b800d40e",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/minecraft/lang/en_us.json",
       "size": 44,
       "sha256": "b40038b58f70e7838b143b519a80bc37f4c95438325a8932bc66cd693c850692",
@@ -91,8 +97,20 @@
     },
     {
       "path": "kubejs/startup_scripts/comida_valores.js",
-      "size": 7576,
-      "sha256": "c853da4d16eabd7baddad448c0307b5ab9625ce6cd41f6f2814888500ab48113",
+      "size": 7570,
+      "sha256": "f0a9c225a52c014481a15f8eaf723bee1d844141b77a773bb5fde76bc46e7fcb",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/main.js",
+      "size": 117,
+      "sha256": "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/nereasnack_ultimate.js",
+      "size": 413,
+      "sha256": "5ae2594bad062757fc149a2147ea7177918b0357987f525b902e0bcdb0b7b3e3",
       "policy": "managed"
     },
     {
