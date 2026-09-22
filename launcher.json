@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "pepaworld-launcher",
+  "version": "0.2.0",
+  "assets": {
+    "win32-x64": {
+      "url": "https://github.com/PuertoT/PepaWorld-Updates/releases/download/launcher-v0.2.0/PepaWorld-0.2.0-win-x64.exe",
+      "size": 259718283,
+      "sha256": "54c462af354230025cafb086b03d3661d1c23bff785347570a601bec20b9adab"
+    }
+  }
+}
