@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.1",
-  "revision": 2,
+  "revision": 3,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-21T17:32:53.350Z",
+  "createdAt": "2026-09-22T00:28:30.762Z",
   "warnings": [
     "Wheel Of Wacky 0.2.2: el JAR original publicado contiene variables sin resolver en neoforge.mods.toml. Requiere prueba real con Connector.",
     "No se ha validado todavía el arranque del cliente gráfico ni la conexión a PepaWorld 3.0."
