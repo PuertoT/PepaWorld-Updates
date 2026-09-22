@@ -1,0 +1,77 @@
+{
+  "name": "pepaworld-launcher",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Instalador y launcher de PepaWorld 3.0",
+  "author": "PepaWorld",
+  "license": "UNLICENSED",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "dist:win": "electron-builder --win nsis --x64",
+    "dist:win:signed": "electron-builder --win nsis --x64 --config installer/signed-win.cjs",
+    "predist:win:signed": "npm run prepare:bundle",
+    "dist:mac": "electron-builder --mac dmg",
+    "release": "node tools/release.cjs",
+    "prepare:bundle": "node tools/prepare-bundle.cjs",
+    "prestart": "npm run prepare:bundle",
+    "predist:win": "npm run prepare:bundle",
+    "predist:mac": "npm run prepare:bundle"
+  },
+  "devDependencies": {
+    "electron": "44.4.3",
+    "electron-builder": "26.0.12"
+  },
+  "build": {
+    "appId": "es.pepaworld.launcher",
+    "productName": "PepaWorld 3.0",
+    "artifactName": "PepaWorld-${version}-${os}-${arch}.${ext}",
+    "files": [
+      "src/**/*",
+      "ui/**/*",
+      "assets/**/*",
+      "launcher.config.json",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "release",
+        "to": "bundled",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "PepaWorld 3.0",
+      "deleteAppDataOnUninstall": false,
+      "language": "3082"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.games",
+      "icon": "assets/icon.png",
+      "identity": null
+    },
+    "dmg": {
+      "title": "PepaWorld 3.0"
+    }
+  }
+}

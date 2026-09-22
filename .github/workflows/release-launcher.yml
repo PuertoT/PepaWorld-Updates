@@ -1,0 +1,41 @@
+name: Publicar launcher Windows
+on:
+  push:
+    branches: [main]
+    paths: ['launcher/package.json', '.github/workflows/release-launcher.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pepaworld-launcher-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: windows-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: launcher
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: launcher/package-lock.json
+      - name: Instalar dependencias fijadas
+        run: npm ci --no-audit --no-fund
+      - name: Ejecutar pruebas
+        run: npm test
+      - name: Restaurar modpack verificado
+        run: node tools/restore-bundle.cjs ..
+      - name: Compilar instalador
+        run: npm run dist:win -- --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Publicar instalador y activar canal
+        run: node tools/publish-launcher.cjs
+        env:
+          GH_TOKEN: ${{ github.token }}

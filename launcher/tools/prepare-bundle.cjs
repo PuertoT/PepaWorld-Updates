@@ -1,0 +1,4 @@
+'use strict';
+// Reconstruye los objetos desde el cliente incluido en el ZIP del proyecto.
+const fs=require('node:fs/promises'),path=require('node:path');const {hash,json}=require('../src/io.cjs');const {validate}=require('../src/updater.cjs');
+(async()=>{const root=path.join(__dirname,'..'),m=validate(await json(path.join(root,'release/manifest.json')));await fs.mkdir(path.join(root,'release/objects'),{recursive:true});for(const f of m.files){const source=path.join(root,'pack/client',f.path);if(await hash(source)!==f.sha256)throw Error('El cliente ha cambiado: genera una nueva revisión antes de compilar. '+f.path);const dest=path.join(root,'release/objects',f.sha256);await fs.copyFile(source,dest);}console.log('Paquete inicial preparado: '+m.files.length+' archivos.');})().catch(e=>{console.error(e.message);process.exitCode=1;});
