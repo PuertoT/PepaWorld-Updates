@@ -6,7 +6,7 @@ URL maestra del launcher:
 
 https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/version.json
 
-La versión 3.0.1 (revisión 3) incluye SecurityCraft 1.10.2.1 para Minecraft 1.21.1 y NeoForge 21.1.250. El JAR es el archivo elegido por Puerto, con SHA-256 `75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229` y 5.193.371 bytes.
+La versión 3.0.2 (revisión 4) incluye SecurityCraft 1.10.2.1 para Minecraft 1.21.1 y NeoForge 21.1.250. El JAR es el archivo elegido por Puerto, con SHA-256 `75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229` y 5.193.371 bytes.
 
 ## Publicar una actualización
 
@@ -20,3 +20,5 @@ La versión 3.0.1 (revisión 3) incluye SecurityCraft 1.10.2.1 para Minecraft 1.
 El launcher verifica los hashes y descarga solo los archivos que faltan o han cambiado. Retira los archivos administrados de la revisión anterior que desaparecen del inventario; conserva archivos ajenos y los de política `seed`. No deben publicarse manifests parciales.
 
 Los avisos de compatibilidad incluidos en el manifest se conservan hasta completar las pruebas del cliente y del servidor. Este canal actualiza el modpack, no el ejecutable del launcher.
+
+Desde la revisión 4, las configuraciones TOML de config/ incluyen `textSha256`, que permite al launcher 0.1.4 aceptar CRLF y LF como equivalentes. Los valores y todos los demás bytes siguen comprobándose. El SHA-256 y el tamaño de descarga permanecen estrictos. Es necesario instalar el launcher 0.1.4 para evitar los falsos avisos de reparación tras jugar en Windows.
