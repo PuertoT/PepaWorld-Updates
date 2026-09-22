@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.1",
-  "revision": 3,
+  "version": "3.0.2",
+  "revision": 4,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-22T00:28:30.762Z",
+  "createdAt": "2026-09-22T00:46:10.037Z",
   "warnings": [
     "Wheel Of Wacky 0.2.2: el JAR original publicado contiene variables sin resolver en neoforge.mods.toml. Requiere prueba real con Connector.",
     "No se ha validado todavía el arranque del cliente gráfico ni la conexión a PepaWorld 3.0."
@@ -16,7 +16,8 @@
       "path": "config/astages/astages-common.toml",
       "size": 4302,
       "sha256": "6f00cc4624f18cbd007f673ece4476d9ca8e35f03213d37bcd548fa8d28fa18c",
-      "policy": "managed"
+      "policy": "managed",
+      "textSha256": "6f00cc4624f18cbd007f673ece4476d9ca8e35f03213d37bcd548fa8d28fa18c"
     },
     {
       "path": "config/astages/simple/astages/dimension.json",
@@ -40,7 +41,8 @@
       "path": "config/curios-common.toml",
       "size": 155,
       "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674",
-      "policy": "managed"
+      "policy": "managed",
+      "textSha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
     },
     {
       "path": "config/CustomNpcs.cfg",
@@ -52,19 +54,22 @@
       "path": "config/sereneseasons/fertility.toml",
       "size": 468,
       "sha256": "7bba1bf89adc6ae05213ca50cee151f9f3a50c77bae65594c52e716c37223625",
-      "policy": "managed"
+      "policy": "managed",
+      "textSha256": "7bba1bf89adc6ae05213ca50cee151f9f3a50c77bae65594c52e716c37223625"
     },
     {
       "path": "config/sereneseasons/seasons.toml",
       "size": 13662,
       "sha256": "8e452efd6d5b6b5e427438ecac44339845cdd075a221fc1a1873d143ab2d55aa",
-      "policy": "managed"
+      "policy": "managed",
+      "textSha256": "8e452efd6d5b6b5e427438ecac44339845cdd075a221fc1a1873d143ab2d55aa"
     },
     {
       "path": "config/waystones-common.toml",
       "size": 6506,
       "sha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2",
-      "policy": "managed"
+      "policy": "managed",
+      "textSha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2"
     },
     {
       "path": "kubejs/assets/minecraft/lang/en_us.json",
