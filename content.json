@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 2,
-  "updatedAt": "2026-09-24T20:18:14.384Z",
+  "revision": 3,
+  "updatedAt": "2026-09-24T20:26:54.359Z",
   "news": [
     {
       "id": "caceria-desgarradores-2026-09-24",
@@ -33,5 +33,10 @@
       "activeFrom": "2026-09-24T20:18:14.384Z",
       "activeUntil": null
     }
-  ]
+  ],
+  "branding": {
+    "background": {
+      "url": "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/fondos/edad-de-piedra-2026-09-24.png"
+    }
+  }
 }
