@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 1,
-  "updatedAt": "2026-09-24T19:57:37.461Z",
+  "revision": 2,
+  "updatedAt": "2026-09-24T20:18:14.384Z",
   "news": [
     {
       "id": "caceria-desgarradores-2026-09-24",
@@ -22,5 +22,16 @@
       "activeUntil": null
     }
   ],
-  "alerts": []
+  "alerts": [
+    {
+      "id": "caceria-desgarradores-activa-2026-09-24",
+      "enabled": true,
+      "priority": "important",
+      "title": "Cacería de los Desgarradores Activa",
+      "message": "Participa en el evento y consulta las reglas y recompensas en Novedades.",
+      "publishedAt": "2026-09-24T20:18:14.384Z",
+      "activeFrom": "2026-09-24T20:18:14.384Z",
+      "activeUntil": null
+    }
+  ]
 }
