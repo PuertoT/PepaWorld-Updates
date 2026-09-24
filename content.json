@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "updatedAt": "2026-09-24T19:57:37.461Z",
+  "news": [
+    {
+      "id": "caceria-desgarradores-2026-09-24",
+      "enabled": true,
+      "featured": true,
+      "category": "EVENTO",
+      "priority": "normal",
+      "title": "Cacería de los Desgarradores",
+      "summary": "Caza Desgarradores del Hoyo, suma puntos y compite por las recompensas. Abre la noticia para ver el cartel completo.",
+      "body": "Evento temporal de PepaWorld 3.0. Inicio: 24 de septiembre de 2026 a las 22:00. Caza Desgarradores del Hoyo en el mundo de Supervivencia: cada Desgarrador eliminado suma 1 punto a tu marcador personal. Puedes eliminar tantos como quieras durante el evento. Cuando llegue la Edad de Piedra se cerrará el ranking y los 3 jugadores con más bajas recibirán las recompensas. Primer puesto: 10 Hoyo Coin, Hacha del Cazador y trofeo exclusivo. Segundo puesto: 6 Hoyo Coin y trofeo exclusivo. Tercer puesto: 3 Hoyo Coin y trofeo exclusivo. Consulta todos los detalles en el cartel de la galería.",
+      "image": "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/caceria-desgarradores-portada.png",
+      "images": [
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/caceria-desgarradores-portada.png",
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/caceria-desgarradores-cartel.jpg"
+      ],
+      "publishedAt": "2026-09-24T19:57:37.461Z",
+      "activeFrom": "2026-09-24T19:57:37.461Z",
+      "activeUntil": null
+    }
+  ],
+  "alerts": []
+}
