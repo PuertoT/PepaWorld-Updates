@@ -1,16 +1,18 @@
 {
   "schema": 1,
   "id": "pepaworld-launcher",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "mandatory": true,
+  "minimumVersion": "1.0.4",
   "assets": {
     "win32-x64": {
-      "url": "https://github.com/PuertoT/PepaWorld-Updates/releases/download/launcher-v1.0.3/PepaWorld-1.0.3-win-x64.exe",
-      "size": 257731961,
-      "sha256": "5581ac4a7c0d4002bdd2dcc388a6e02eae8c89ff43f1e90441fe08b59b30859c",
+      "url": "https://github.com/PuertoT/PepaWorld-Updates/releases/download/launcher-v1.0.4/PepaWorld-1.0.4-win-x64.exe",
+      "size": 257733360,
+      "sha256": "0f719d35ff1a11d9192dc086f904fca4760be95496d207575aeb242a91a3a6f4",
       "signature": {
         "algorithm": "ed25519",
         "keyId": "puertot-2026-01",
-        "value": "O7BmIohMGdr3seKIQmiltLTXwWasy2YlP6/RuaB6WGaLwPdAnmjgs+2aM/M+5T1621cGa0lupdlHHrCJn31oCA=="
+        "value": "G1KbegZz7n6orlehITZzEiZQnWYA6DFtcznVFq0Yl+3JEAJ3cD3FNlINbZlWR+czK2R7ZUsCycw2WiAeQEryAw=="
       }
     }
   }
