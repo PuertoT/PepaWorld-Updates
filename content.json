@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 6,
-  "updatedAt": "2026-09-25T19:15:08.815Z",
+  "revision": 7,
+  "updatedAt": "2026-09-25T19:29:36.093Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -53,6 +53,18 @@
       "publishedAt": "2026-09-24T20:18:14.384Z",
       "activeFrom": "2026-09-24T20:18:14.384Z",
       "activeUntil": null
+    },
+    {
+      "id": "manager-b1bccaf4-94cc-440f-b857-08db6bc9036d",
+      "enabled": true,
+      "priority": "urgent",
+      "title": "El Evento queda retrasado por motivos personales",
+      "publishedAt": "2026-09-25T19:28:32.472Z",
+      "activeFrom": null,
+      "activeUntil": null,
+      "image": "",
+      "images": [],
+      "message": ""
     }
   ],
   "branding": {
