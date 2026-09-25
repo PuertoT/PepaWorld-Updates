@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 4,
-  "updatedAt": "2026-09-25T12:25:28.111Z",
+  "revision": 5,
+  "updatedAt": "2026-09-25T19:12:48.059Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -53,6 +53,18 @@
       "publishedAt": "2026-09-24T20:18:14.384Z",
       "activeFrom": "2026-09-24T20:18:14.384Z",
       "activeUntil": null
+    },
+    {
+      "id": "manager-67d438d3-112e-4b97-9d55-25cf6438c2a6",
+      "enabled": true,
+      "priority": "normal",
+      "title": "Prueba",
+      "publishedAt": "2026-09-25T19:12:10.356Z",
+      "activeFrom": null,
+      "activeUntil": null,
+      "image": "",
+      "images": [],
+      "message": ""
     }
   ],
   "branding": {
