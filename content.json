@@ -1,8 +1,29 @@
 {
   "schema": 1,
-  "revision": 3,
-  "updatedAt": "2026-09-24T20:26:54.359Z",
+  "revision": 4,
+  "updatedAt": "2026-09-25T12:25:28.111Z",
   "news": [
+    {
+      "id": "la-gran-helada-2026-09",
+      "enabled": true,
+      "featured": true,
+      "category": "EVENTO",
+      "priority": "normal",
+      "title": "La Gran Helada",
+      "summary": "Sábado y domingo: sobrevive a la tormenta, reúne materiales y canjéalos por recompensas. El deshielo dará paso a la Edad de Piedra.",
+      "body": "La Gran Helada llega el sábado y el domingo. Sobrevive al frío, caza criaturas de hielo y reúne materiales para canjearlos en el NPC del evento, disponible desde el Nivel 1, incluido el Corazón. El sábado comienza la tormenta; el domingo aumentan los enemigos y las criaturas raras. Cuando termine el evento y se active el deshielo comenzará oficialmente la Edad de Piedra. Las recompensas siguen disponibles después y no tienen receta de crafteo normal. Consulta las tres láminas de abajo: 1) fases del evento, 2) enemigos y materiales, 3) recompensas y costes de canje. Al final encontrarás también el cartel original completo.",
+      "image": "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-portada.png",
+      "images": [
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-portada.png",
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-01-fases.png",
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-02-enemigos.png",
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-03-recompensas.png",
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/la-gran-helada-cartel.png"
+      ],
+      "publishedAt": "2026-09-24T21:40:56.784Z",
+      "activeFrom": "2026-09-24T21:40:56.784Z",
+      "activeUntil": null
+    },
     {
       "id": "caceria-desgarradores-2026-09-24",
       "enabled": true,
