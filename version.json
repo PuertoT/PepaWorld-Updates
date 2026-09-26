@@ -1,16 +1,13 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.4",
-  "revision": 6,
+  "version": "3.0.5",
+  "revision": 1,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-22T17:06:32.369Z",
-  "warnings": [
-    "Wheel Of Wacky 0.2.2: el JAR original publicado contiene variables sin resolver en neoforge.mods.toml. Requiere prueba real con Connector.",
-    "No se ha validado todavía el arranque del cliente gráfico ni la conexión a PepaWorld 3.0."
-  ],
+  "createdAt": "2026-09-26T19:19:17.923Z",
+  "warnings": [],
   "files": [
     {
       "path": "config/astages/astages-common.toml",
@@ -38,6 +35,13 @@
       "policy": "managed"
     },
     {
+      "path": "config/corpse-server.toml",
+      "size": 1061,
+      "sha256": "eee3dacd95a14a2c03b02078f71821c639800ae887fe55d3c5e68c379eb63857",
+      "policy": "managed",
+      "textSha256": "eee3dacd95a14a2c03b02078f71821c639800ae887fe55d3c5e68c379eb63857"
+    },
+    {
       "path": "config/curios-common.toml",
       "size": 155,
       "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674",
@@ -45,10 +49,31 @@
       "textSha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
     },
     {
+      "path": "config/curios-server.toml",
+      "size": 467,
+      "sha256": "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734",
+      "policy": "managed",
+      "textSha256": "3c34cf9f7918c6a9ec15b14a87aa4570a751c1688f8ac01cb2e9acfb9392a734"
+    },
+    {
       "path": "config/CustomNpcs.cfg",
       "size": 2525,
       "sha256": "5c85e77a77b1959d487387235f74487add4d0ff40ac9fab9149ab1a03912c0d1",
       "policy": "managed"
+    },
+    {
+      "path": "config/jei-server.toml",
+      "size": 317,
+      "sha256": "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3",
+      "policy": "managed",
+      "textSha256": "57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3"
+    },
+    {
+      "path": "config/securitycraft-server.toml",
+      "size": 8222,
+      "sha256": "0b7a36a22b1509c8c8cf8f772c7ab3db408d88e81406c915d9e8ee1e64b31509",
+      "policy": "managed",
+      "textSha256": "0b7a36a22b1509c8c8cf8f772c7ab3db408d88e81406c915d9e8ee1e64b31509"
     },
     {
       "path": "config/sereneseasons/fertility.toml",
@@ -93,6 +118,36 @@
       "path": "kubejs/assets/minecraft/textures/item/emerald.png",
       "size": 2802,
       "sha256": "42384e0b94b738776597b081226053b7ccc41b673407e08d05f3ee24ffe27ba4",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/client_scripts/main.js",
+      "size": 116,
+      "sha256": "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/config/client.json",
+      "size": 184,
+      "sha256": "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/config/common.json",
+      "size": 446,
+      "sha256": "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/config/web_server.json",
+      "size": 120,
+      "sha256": "eed7423da4d59f77f1cce75a0e43e26fa6ab2f4c349af2d06376284b931b3e3f",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/README.txt",
+      "size": 1203,
+      "sha256": "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af",
       "policy": "managed"
     },
     {
@@ -168,6 +223,18 @@
       "policy": "managed"
     },
     {
+      "path": "mods/directauth-1.2.0.jar",
+      "size": 13699702,
+      "sha256": "91c56470a2c62a5f1cbcbdde840791b462d0fe25148c74fecfadf33eeaa4b94c",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/discordpresence-neoforge-0.58.0.jar",
+      "size": 276998,
+      "sha256": "98b27f21106e4d715d61f03867e1dc0235b40fd052a715e24b35b6ce6d8d99b0",
+      "policy": "managed"
+    },
+    {
       "path": "mods/ferritecore-7.0.3-neoforge.jar",
       "size": 121559,
       "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
@@ -177,6 +244,12 @@
       "path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
       "size": 5613421,
       "sha256": "56cb524bcbb2430113f586d4d58ba79bfd66f73684c019aacb528690c3d8d07d",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/ftb-backups-3-21.1.5.jar",
+      "size": 91354,
+      "sha256": "b769eb27e8a26c8a894d87ae0bea5c544ebb3ef6712af2f79cd6ef16afe685d4",
       "policy": "managed"
     },
     {
@@ -303,6 +376,12 @@
       "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar",
       "size": 1162994,
       "sha256": "7acd7af2ef75ec883a6872c17494ead65e38025151eb08a1d60e36d34377f403",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/Statistics-0.1.0.jar",
+      "size": 84070,
+      "sha256": "d397bfd3c0b530de1c2fabbbac8b0fb1cb1777d4c8bf3c06af08fd05e026549c",
       "policy": "managed"
     },
     {
