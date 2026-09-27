@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 8,
-  "updatedAt": "2026-09-26T23:49:17.893Z",
+  "revision": 9,
+  "updatedAt": "2026-09-27T01:08:56.407Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -41,6 +41,23 @@
       "publishedAt": "2026-09-24T19:57:37.461Z",
       "activeFrom": "2026-09-24T19:57:37.461Z",
       "activeUntil": null
+    },
+    {
+      "id": "manager-6f510c7b-2f41-4793-97c6-938c8a1b950d",
+      "enabled": true,
+      "priority": "important",
+      "title": "Recompensas añadidas de la Cacería de los Desgarradores",
+      "publishedAt": "2026-09-27T00:59:05.847Z",
+      "activeFrom": "2026-09-25T20:00:00+02:00",
+      "activeUntil": null,
+      "image": "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/680b9f09e8d4df4cd1476274ec333c9a209f1d44291ca334ee63650f62a611cf.png",
+      "images": [
+        "https://raw.githubusercontent.com/PuertoT/PepaWorld-Updates/main/launcher-content/images/novedades/680b9f09e8d4df4cd1476274ec333c9a209f1d44291ca334ee63650f62a611cf.png"
+      ],
+      "featured": true,
+      "category": "NUEVO_CONTENIDO",
+      "summary": "Se añadieron las recompensas del evento.",
+      "body": ""
     }
   ],
   "alerts": [
