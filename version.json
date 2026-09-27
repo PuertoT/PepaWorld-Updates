@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.6",
-  "revision": 3,
+  "version": "3.0.7",
+  "revision": 1,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T09:38:57.745Z",
+  "createdAt": "2026-09-27T10:39:46.709Z",
   "warnings": [],
   "files": [
     {
@@ -95,6 +95,12 @@
       "sha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2",
       "policy": "managed",
       "textSha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2"
+    },
+    {
+      "path": "kubejs/assets/kubejs/models/item/hacha_del_cazador_model.json",
+      "size": 1849,
+      "sha256": "52b18f1d97e013d4c8c8d8f67c4506db58da1556792f2f2a59993f0e2116431b",
+      "policy": "managed"
     },
     {
       "path": "kubejs/assets/kubejs/models/item/hacha_del_cazador.json",
@@ -218,8 +224,8 @@
     },
     {
       "path": "kubejs/startup_scripts/objetos_evento_desgarradores.js",
-      "size": 3017,
-      "sha256": "d16810ee5808aafea7f13d2cb8b29849a45f5cf23cc1e8b0e23425ccdc74619a",
+      "size": 3084,
+      "sha256": "fe6d610089e057a2584f9b1890c3af97a97faeb685830dfffba619fa36670790",
       "policy": "managed"
     },
     {
