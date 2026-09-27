@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.7",
-  "revision": 5,
+  "revision": 6,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T14:11:17.734Z",
+  "createdAt": "2026-09-27T18:28:40.100Z",
   "warnings": [],
   "files": [
     {
@@ -97,6 +97,30 @@
       "textSha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2"
     },
     {
+      "path": "kubejs/assets/kubejs/animations/entity/gran_helada_humanoide.animation.json",
+      "size": 1467,
+      "sha256": "8366cfe1004f001e4d46cac6eabe85cdf49d49afa6f43bf641660c6d975b72cf",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/geo/entity/gran_helada/escarchado_del_hoyo.geo.json",
+      "size": 2525,
+      "sha256": "087e3e9da14514be2d47fc62fba3b87b92f76ff38ccd79a410b2aed42e326577",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/geo/entity/gran_helada/zombie_64.geo.json",
+      "size": 2517,
+      "sha256": "07cc1a6660bd17a3cf3a69593c1bfd6afbdb61acf4cbc07d3b0025a4c4e54885",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/es_es.json",
+      "size": 374,
+      "sha256": "9634b70a08ff5351c15945b54dc969132d5958d8bb0c3ef9ece819e8f06719cd",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/kubejs/models/item/hacha_del_cazador_model.json",
       "size": 631,
       "sha256": "203d21883be7187f400ae476ec8be9b4f3c379f1934eac691f88fe9c233d7b16",
@@ -124,6 +148,24 @@
       "path": "kubejs/assets/kubejs/models/item/trofeo_desgarradores_3.json",
       "size": 119,
       "sha256": "eba66a0bd0aa3f78d9f54a0e1b49e2f2920072830bca003db1d334df64d88a5e",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/entity/gran_helada/acechador_de_la_ventisca.png",
+      "size": 448,
+      "sha256": "2b7676321d83f2a433f13338941ba7bc9947bfc695aa8380b845485c45cbd1d1",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/entity/gran_helada/ahogado_de_la_helada.png",
+      "size": 839,
+      "sha256": "23f0a3db4bcfa4cef7b2e67a29bd464b55e8405253edf25e28872eff44c94ddd",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/entity/gran_helada/escarchado_del_hoyo.png",
+      "size": 10568,
+      "sha256": "5df1cbb46cf24cba4811ba3517f04920d3636dcb55d7d63097597ad45d4bedae",
       "policy": "managed"
     },
     {
@@ -214,6 +256,12 @@
       "path": "kubejs/startup_scripts/comida_valores.js",
       "size": 7570,
       "sha256": "f0a9c225a52c014481a15f8eaf723bee1d844141b77a773bb5fde76bc46e7fcb",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/gran_helada_enemigos.js",
+      "size": 6269,
+      "sha256": "a172cbe0645d98bff6599d9c26822b6c944e2741dad88fc5e6708907c31a1b92",
       "policy": "managed"
     },
     {
