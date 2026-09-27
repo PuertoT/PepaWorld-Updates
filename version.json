@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.7",
-  "revision": 4,
+  "revision": 5,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T13:50:45.559Z",
+  "createdAt": "2026-09-27T14:11:17.734Z",
   "warnings": [],
   "files": [
     {
@@ -424,12 +424,6 @@
       "path": "mods/openhud-neoforge-1.3.1+1.21.1.jar",
       "size": 112631,
       "sha256": "eb68100950f2ef7df07cae0e183b38a2d71706adb00892921fe3b6fb717d7f8f",
-      "policy": "managed"
-    },
-    {
-      "path": "mods/pepaworld-core-0.1.0.jar",
-      "size": 44906,
-      "sha256": "bb93d62aed47ea46f2f21a3422a0e34901faeb88d091e7c154b9b62faf237a60",
       "policy": "managed"
     },
     {
