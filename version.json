@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.7",
-  "revision": 2,
+  "revision": 3,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T11:30:26.439Z",
+  "createdAt": "2026-09-27T11:39:44.693Z",
   "warnings": [],
   "files": [
     {
@@ -343,9 +343,9 @@
       "policy": "managed"
     },
     {
-      "path": "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
-      "size": 630584,
-      "sha256": "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba",
+      "path": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "size": 634531,
+      "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
       "policy": "managed"
     },
     {
