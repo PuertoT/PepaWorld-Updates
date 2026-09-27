@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.7",
-  "revision": 1,
+  "revision": 2,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T10:39:46.709Z",
+  "createdAt": "2026-09-27T11:30:26.439Z",
   "warnings": [],
   "files": [
     {
@@ -98,8 +98,8 @@
     },
     {
       "path": "kubejs/assets/kubejs/models/item/hacha_del_cazador_model.json",
-      "size": 1849,
-      "sha256": "52b18f1d97e013d4c8c8d8f67c4506db58da1556792f2f2a59993f0e2116431b",
+      "size": 631,
+      "sha256": "203d21883be7187f400ae476ec8be9b4f3c379f1934eac691f88fe9c233d7b16",
       "policy": "managed"
     },
     {
@@ -124,6 +124,12 @@
       "path": "kubejs/assets/kubejs/models/item/trofeo_desgarradores_3.json",
       "size": 119,
       "sha256": "eba66a0bd0aa3f78d9f54a0e1b49e2f2920072830bca003db1d334df64d88a5e",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/desktop.ini",
+      "size": 146,
+      "sha256": "7c347cc46b7365fcd2b2e066d61db5030ecf967abd33a59b66ceb0c8910482d5",
       "policy": "managed"
     },
     {
@@ -224,8 +230,8 @@
     },
     {
       "path": "kubejs/startup_scripts/objetos_evento_desgarradores.js",
-      "size": 3084,
-      "sha256": "fe6d610089e057a2584f9b1890c3af97a97faeb685830dfffba619fa36670790",
+      "size": 3206,
+      "sha256": "e8b3c183ec670a3cc1fb051101cefbbc1df051531abcd83e3e9af112ef21e5e2",
       "policy": "managed"
     },
     {
