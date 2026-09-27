@@ -1,0 +1,9 @@
+{
+  "entity.kubejs.escarchado_del_hoyo": "Escarchado del Hoyo",
+  "entity.kubejs.acechador_de_la_ventisca": "Acechador de la Ventisca",
+  "entity.kubejs.ahogado_de_la_helada": "Ahogado de la Helada",
+
+  "item.kubejs.fragmento_escarcha": "Fragmento de Escarcha",
+  "item.kubejs.garra_ventisca": "Garra de Ventisca",
+  "item.kubejs.nucleo_glacial": "Núcleo Glacial"
+}
