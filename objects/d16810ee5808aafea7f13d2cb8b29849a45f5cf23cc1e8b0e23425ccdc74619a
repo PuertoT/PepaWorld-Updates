@@ -1,0 +1,80 @@
+// ============================================================
+// PEPAWORLD 3.0
+// OBJETOS DEL EVENTO - CACERÍA DE LOS DESGARRADORES
+// ============================================================
+
+StartupEvents.registry('item', event => {
+
+    // ========================================================
+    // HACHA DEL CAZADOR
+    // ========================================================
+
+    event.create('hacha_del_cazador', 'axe')
+        .displayName('§6Hacha del Cazador')
+        .texture('kubejs:item/hacha_del_cazador')
+        .attackDamageBaseline(6.0)
+        .speedBaseline(-3.1)
+        .modifyTier(tier => {
+            tier.setUses(250)
+            tier.setSpeed(5.0)
+            tier.setAttackDamageBonus(2.5)
+            tier.setEnchantmentValue(10)
+        })
+        .tooltip('§7Trofeo del campeón de la Cacería')
+        .tooltip('§7de los Desgarradores')
+        .tooltip('§8PepaWorld 3.0')
+        .tooltip('')
+        .tooltip('§6✦ Instinto del Cazador')
+        .tooltip('§7Matar un hostil: §bVelocidad I §7durante §f4 segundos')
+        .tooltip('§7Matar un Desgarrador: §bVelocidad I §7durante §f8 segundos')
+        .tooltip('')
+        .tooltip('§eEncantamientos permitidos:')
+        .tooltip('§7Filo II')
+        .tooltip('§7Irrompibilidad II')
+        .tooltip('§7Eficiencia III')
+        .tooltip('')
+        .tooltip('§cReparación normal bloqueada')
+        .tooltip('§61 Hoyo Coin §7= §a+50 durabilidad')
+
+
+    // ========================================================
+    // TROFEO 1º PUESTO
+    // ========================================================
+
+    event.create('trofeo_desgarradores_1')
+        .displayName('§6Trofeo 1º Puesto')
+        .texture('kubejs:item/trofeo_desgarradores_1')
+        .maxStackSize(1)
+        .rarity('epic')
+        .tooltip('§7Cacería de los Desgarradores')
+        .tooltip('§8PepaWorld 3.0')
+        .tooltip('§6Primer puesto del evento')
+
+
+    // ========================================================
+    // TROFEO 2º PUESTO
+    // ========================================================
+
+    event.create('trofeo_desgarradores_2')
+        .displayName('§7Trofeo 2º Puesto')
+        .texture('kubejs:item/trofeo_desgarradores_2')
+        .maxStackSize(1)
+        .rarity('rare')
+        .tooltip('§7Cacería de los Desgarradores')
+        .tooltip('§8PepaWorld 3.0')
+        .tooltip('§7Segundo puesto del evento')
+
+
+    // ========================================================
+    // TROFEO 3º PUESTO
+    // ========================================================
+
+    event.create('trofeo_desgarradores_3')
+        .displayName('§cTrofeo 3º Puesto')
+        .texture('kubejs:item/trofeo_desgarradores_3')
+        .maxStackSize(1)
+        .rarity('uncommon')
+        .tooltip('§7Cacería de los Desgarradores')
+        .tooltip('§8PepaWorld 3.0')
+        .tooltip('§cTercer puesto del evento')
+})
