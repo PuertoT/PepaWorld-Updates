@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "revision": 1,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-26T19:19:17.923Z",
+  "createdAt": "2026-09-27T00:29:25.820Z",
   "warnings": [],
   "files": [
     {
@@ -97,9 +97,57 @@
       "textSha256": "3b23624cc7b85174b80915cfd296787d6f469b62c652759fe0ce2c9ed60eecb2"
     },
     {
+      "path": "kubejs/assets/kubejs/models/item/hacha_del_cazador.json",
+      "size": 113,
+      "sha256": "a379c2850f106ea805f6fa8fb2716cd85af636a7eb79fdc4ca8a741ed5b54de9",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/models/item/trofeo_desgarradores_1.json",
+      "size": 119,
+      "sha256": "b07ac33dc8aea473a0e84d264140c481674e9027249f72aaf8ad3aa90e7f4985",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/models/item/trofeo_desgarradores_2.json",
+      "size": 119,
+      "sha256": "6408b305a11ca14e737482878e2f4f3928a6e7b08714e31ab96906f708f6dd92",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/models/item/trofeo_desgarradores_3.json",
+      "size": 119,
+      "sha256": "eba66a0bd0aa3f78d9f54a0e1b49e2f2920072830bca003db1d334df64d88a5e",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/hacha_del_cazador.png",
+      "size": 960067,
+      "sha256": "5eadc17be049681930afd8b9fb25643d2d585814de1ba8f776b9d57aa5f8dbd1",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/kubejs/textures/item/nereasnack_ultimate.png",
       "size": 920105,
       "sha256": "aa8934a09c81d078c1f53cfa66400359b0c52afe1fb0061003d602d0b800d40e",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/trofeo_desgarradores_1.png",
+      "size": 1944711,
+      "sha256": "1009faa71cbf0dcb2cacdca464af1ee1080e87a853dbad269b6ae15b7e83b36b",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/trofeo_desgarradores_2.png",
+      "size": 1881543,
+      "sha256": "7e5a059242d74833725977f5348f16e87cb5c576acb167a4d6a5868965c9cbe0",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/trofeo_desgarradores_3.png",
+      "size": 1919800,
+      "sha256": "239cf6683ceefcf26532ede7dc26e0a8b5689227fdb6501f6590da41e314e6ec",
       "policy": "managed"
     },
     {
@@ -166,6 +214,12 @@
       "path": "kubejs/startup_scripts/nereasnack_ultimate.js",
       "size": 413,
       "sha256": "5ae2594bad062757fc149a2147ea7177918b0357987f525b902e0bcdb0b7b3e3",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/objetos_evento_desgarradores.js",
+      "size": 3017,
+      "sha256": "d16810ee5808aafea7f13d2cb8b29849a45f5cf23cc1e8b0e23425ccdc74619a",
       "policy": "managed"
     },
     {
