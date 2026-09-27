@@ -1,0 +1,239 @@
+// ============================================================
+// PEPAWORLD 3.0
+// LA GRAN HELADA - ENEMIGOS + OBJETOS
+// Minecraft 1.21.1 / NeoForge / EntityJS
+// ============================================================
+
+
+// ============================================================
+// OBJETOS DE DROP
+// ============================================================
+
+StartupEvents.registry('item', event => {
+
+    event.create('fragmento_escarcha')
+        .displayName('Fragmento de Escarcha')
+        .texture('kubejs:item/gran_helada/fragmento_escarcha')
+
+    event.create('garra_ventisca')
+        .displayName('Garra de Ventisca')
+        .texture('kubejs:item/gran_helada/garra_ventisca')
+
+    event.create('nucleo_glacial')
+        .displayName('Núcleo Glacial')
+        .texture('kubejs:item/gran_helada/nucleo_glacial')
+})
+
+// ============================================================
+// ENTIDADES
+// ============================================================
+
+StartupEvents.registry('entity_type', event => {
+
+    const ANIMACION =
+        'kubejs:animations/entity/gran_helada_humanoide.animation.json'
+
+
+    // --------------------------------------------------------
+    // CONFIGURACIÓN COMÚN
+    // --------------------------------------------------------
+
+    function configurarBase(builder, modelo, textura, vida, dano, velocidad, armadura) {
+
+        builder.mobCategory('monster')
+
+        builder.sized(0.6, 1.95)
+
+        builder.clientTrackingRange(8)
+
+        builder.updateInterval(3)
+
+        // Criaturas propias de la helada:
+        // no arden con el sol ni se convierten en drowned.
+        builder.isSunSensitive(false)
+
+        builder.convertsInWater(false)
+
+        // No sufren congelación.
+        builder.canFreeze(entity => false)
+
+        builder.modelResource(entity => modelo)
+
+        builder.textureResource(entity => textura)
+
+        builder.animationResource(entity => ANIMACION)
+
+        builder.setRenderType('cutout')
+
+        builder.attributes(attributes => {
+
+            attributes.add(
+                'minecraft:generic.max_health',
+                vida
+            )
+
+            attributes.add(
+                'minecraft:generic.attack_damage',
+                dano
+            )
+
+            attributes.add(
+                'minecraft:generic.movement_speed',
+                velocidad
+            )
+
+            attributes.add(
+                'minecraft:generic.armor',
+                armadura
+            )
+
+            attributes.add(
+                'minecraft:generic.follow_range',
+                32
+            )
+        })
+
+        // Animación básica humanoide.
+        builder.addAnimationController(
+            'movimiento',
+            2,
+            animation => {
+
+                if (animation.isMoving()) {
+                    animation.thenLoop('walk')
+                } else {
+                    animation.thenLoop('idle')
+                }
+
+                return true
+            }
+        )
+    }
+
+
+    // ========================================================
+    // 1. ESCARCHADO DEL HOYO
+    // ========================================================
+
+    const escarchado = event.create(
+        'escarchado_del_hoyo',
+        'minecraft:zombie'
+    )
+
+    configurarBase(
+        escarchado,
+        'kubejs:geo/entity/gran_helada/escarchado_del_hoyo.geo.json',
+        'kubejs:textures/entity/gran_helada/escarchado_del_hoyo.png',
+        26,     // 13 corazones
+        4,      // 2 corazones de daño base
+        0.20,
+        2
+    )
+
+    // La geometría está duplicada para aprovechar correctamente
+    // la textura 128x128.
+    escarchado.modelSize(0.5, 0.5)
+
+    // 20 % de aplicar Lentitud I durante 3 segundos.
+    escarchado.onHurtTarget(context => {
+
+        const target = context.targetEntity
+
+        if (target == null) return
+
+        if (Math.random() < 0.20) {
+            target.potionEffects.add(
+                'minecraft:slowness',
+                60,
+                0
+            )
+        }
+    })
+
+
+    // ========================================================
+    // 2. ACECHADOR DE LA VENTISCA
+    // ========================================================
+
+    const acechador = event.create(
+        'acechador_de_la_ventisca',
+        'minecraft:zombie'
+    )
+
+    configurarBase(
+        acechador,
+        'kubejs:geo/entity/zombie.geo.json',
+        'kubejs:textures/entity/gran_helada/acechador_de_la_ventisca.png',
+        18,     // 9 corazones
+        3,      // 1.5 corazones
+        0.31,
+        0
+    )
+
+    // Cada 5 segundos, si está persiguiendo a alguien,
+    // tiene un 20 % de activar un sprint de 2 segundos.
+    acechador.tick(entity => {
+
+        if (entity.level.isClientSide) return
+
+        if (entity.tickCount % 100 !== 0) return
+
+        if (entity.getTarget() == null) return
+
+        if (Math.random() < 0.20) {
+
+            entity.potionEffects.add(
+                'minecraft:speed',
+                40,
+                0
+            )
+        }
+    })
+
+
+    // ========================================================
+    // 3. AHOGADO DE LA HELADA
+    // ========================================================
+
+    const ahogado = event.create(
+        'ahogado_de_la_helada',
+        'minecraft:zombie'
+    )
+
+    configurarBase(
+        ahogado,
+        'kubejs:geo/entity/gran_helada/zombie_64.geo.json',
+        'kubejs:textures/entity/gran_helada/ahogado_de_la_helada.png',
+        30,     // 15 corazones
+        5,      // 2.5 corazones
+        0.19,
+        3
+    )
+
+    // Puede permanecer bajo el agua.
+    ahogado.canBreatheUnderwater(true)
+
+    ahogado.onHurtTarget(context => {
+
+        const target = context.targetEntity
+
+        if (target == null) return
+
+        // Acumula congelación al golpear.
+        const congeladoActual = target.getTicksFrozen()
+
+        target.setTicksFrozen(
+            Math.min(congeladoActual + 60, 140)
+        )
+
+        // 35 % de Lentitud I durante 4 segundos.
+        if (Math.random() < 0.35) {
+
+            target.potionEffects.add(
+                'minecraft:slowness',
+                80,
+                0
+            )
+        }
+    })
+})
