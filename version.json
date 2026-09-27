@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.6",
-  "revision": 2,
+  "revision": 3,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T00:45:00.945Z",
+  "createdAt": "2026-09-27T09:38:57.745Z",
   "warnings": [],
   "files": [
     {
@@ -439,9 +439,9 @@
       "policy": "managed"
     },
     {
-      "path": "mods/Statistics-0.1.0.jar",
-      "size": 84070,
-      "sha256": "d397bfd3c0b530de1c2fabbbac8b0fb1cb1777d4c8bf3c06af08fd05e026549c",
+      "path": "mods/Statistics-0.2.0.jar",
+      "size": 112697,
+      "sha256": "6c162619c0859f72aeb4c52e04158d4cfe646eefdb067f2d06d12eae217bb344",
       "policy": "managed"
     },
     {
