@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "id": "pepaworld-3",
-  "version": "3.0.7",
-  "revision": 6,
+  "version": "3.0.8",
+  "revision": 1,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T18:28:40.100Z",
+  "createdAt": "2026-09-27T19:51:37.270Z",
   "warnings": [],
   "files": [
     {
@@ -175,6 +175,30 @@
       "policy": "managed"
     },
     {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/desktop.ini",
+      "size": 144,
+      "sha256": "8bfa5968b8d965802c942ea9ff58c8cac64cef9855a04f5470b2ae6168580caf",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/fragmento_escarcha.png",
+      "size": 767,
+      "sha256": "3db459c7b40b215ffe0edec498bd891e22f6c4d2c5777f8182498deee132ad1f",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/garra_ventisca.png",
+      "size": 657,
+      "sha256": "2e7400f4392026ffcc108809229166970e07ea977f54f2a428f41c7a023f7c8f",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/nucleo_glacial.png",
+      "size": 920,
+      "sha256": "7f881447eee8fd913fb517986a1aac167fdce8b02ee97449d2c8129bbfe19153",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/kubejs/textures/item/hacha_del_cazador.png",
       "size": 960067,
       "sha256": "5eadc17be049681930afd8b9fb25643d2d585814de1ba8f776b9d57aa5f8dbd1",
@@ -260,8 +284,8 @@
     },
     {
       "path": "kubejs/startup_scripts/gran_helada_enemigos.js",
-      "size": 6269,
-      "sha256": "a172cbe0645d98bff6599d9c26822b6c944e2741dad88fc5e6708907c31a1b92",
+      "size": 6425,
+      "sha256": "b37bbe3e66b680a51444683d09fc925f8e591829bcbfc241ef1cae9a41614c47",
       "policy": "managed"
     },
     {
