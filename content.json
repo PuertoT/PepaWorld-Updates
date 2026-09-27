@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 11,
-  "updatedAt": "2026-09-27T09:33:35.079Z",
+  "revision": 12,
+  "updatedAt": "2026-09-27T12:57:20.299Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -66,7 +66,7 @@
       "enabled": true,
       "priority": "important",
       "title": "Ultimo Dia-Cacería de los Desgarradores ",
-      "message": "El evento finalizara a las 15:00 del dia 27/09 \nParticipa en el evento y consulta las reglas y recompensas en Novedades.",
+      "message": "El evento finalizara a las 17:00 del dia 27/09 \nParticipa en el evento y consulta las reglas y recompensas en Novedades.",
       "publishedAt": "2026-09-24T20:18:14.384Z",
       "activeFrom": "2026-09-24T20:18:14.384Z",
       "activeUntil": "2026-09-27T15:00:14.384Z",
