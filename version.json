@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.6",
-  "revision": 1,
+  "revision": 2,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T00:29:25.820Z",
+  "createdAt": "2026-09-27T00:45:00.945Z",
   "warnings": [],
   "files": [
     {
@@ -286,6 +286,12 @@
       "path": "mods/discordpresence-neoforge-0.58.0.jar",
       "size": 276998,
       "sha256": "98b27f21106e4d715d61f03867e1dc0235b40fd052a715e24b35b6ce6d8d99b0",
+      "policy": "managed"
+    },
+    {
+      "path": "mods/entityjs-1.5.0.jar",
+      "size": 3623033,
+      "sha256": "81be8a4f209224314cee6e1a72277c2a7f714103d1dce5a98a6f1ae1c0e984fc",
       "policy": "managed"
     },
     {
