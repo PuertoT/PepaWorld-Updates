@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 14,
-  "updatedAt": "2026-09-28T12:56:40.876Z",
+  "revision": 15,
+  "updatedAt": "2026-09-28T14:26:53.729Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -87,7 +87,7 @@
     },
     {
       "id": "manager-251be542-56d4-4ba1-866f-9517cc29fa1f",
-      "enabled": true,
+      "enabled": false,
       "priority": "urgent",
       "title": "Server en Mantenimiento hasta las 16:00 aprox.",
       "publishedAt": "2026-09-28T12:55:54.539Z",
