@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 13,
-  "updatedAt": "2026-09-27T18:33:39.535Z",
+  "revision": 14,
+  "updatedAt": "2026-09-28T12:56:40.876Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -79,6 +79,18 @@
       "priority": "urgent",
       "title": "Preparando Actualizaciones — Pueden Producirse Reinicios Inesperados.",
       "publishedAt": "2026-09-27T08:09:01.466Z",
+      "activeFrom": "2026-09-25T20:00:00+02:00",
+      "activeUntil": null,
+      "image": "",
+      "images": [],
+      "message": ""
+    },
+    {
+      "id": "manager-251be542-56d4-4ba1-866f-9517cc29fa1f",
+      "enabled": true,
+      "priority": "urgent",
+      "title": "Server en Mantenimiento hasta las 16:00 aprox.",
+      "publishedAt": "2026-09-28T12:55:54.539Z",
       "activeFrom": "2026-09-25T20:00:00+02:00",
       "activeUntil": null,
       "image": "",
