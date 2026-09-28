@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "pepaworld-3",
   "version": "3.0.8",
-  "revision": 1,
+  "revision": 2,
   "minecraft": "1.21.1",
   "neoforge": "21.1.250",
   "server": "45.43.163.21:25570",
-  "createdAt": "2026-09-27T19:51:37.270Z",
+  "createdAt": "2026-09-28T14:22:33.571Z",
   "warnings": [],
   "files": [
     {
@@ -103,6 +103,12 @@
       "policy": "managed"
     },
     {
+      "path": "kubejs/assets/kubejs/geo/entity/gran_helada/acechador_de_la_ventisca.geo.json",
+      "size": 2741,
+      "sha256": "491d8f38eb132de66f912fad1aaa932f32afad04cbd4481c5395a1466f8d9af2",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/kubejs/geo/entity/gran_helada/escarchado_del_hoyo.geo.json",
       "size": 2525,
       "sha256": "087e3e9da14514be2d47fc62fba3b87b92f76ff38ccd79a410b2aed42e326577",
@@ -175,6 +181,12 @@
       "policy": "managed"
     },
     {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/corazon_gran_helada.png",
+      "size": 1769,
+      "sha256": "041e866b8d03cedf01201fa1ffb846f0efd5f9cde164289cb4b6292fb5ccb121",
+      "policy": "managed"
+    },
+    {
       "path": "kubejs/assets/kubejs/textures/item/gran_helada/desktop.ini",
       "size": 144,
       "sha256": "8bfa5968b8d965802c942ea9ff58c8cac64cef9855a04f5470b2ae6168580caf",
@@ -190,6 +202,12 @@
       "path": "kubejs/assets/kubejs/textures/item/gran_helada/garra_ventisca.png",
       "size": 657,
       "sha256": "2e7400f4392026ffcc108809229166970e07ea977f54f2a428f41c7a023f7c8f",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/gran_helada/hacha_escarcha_del_hoyo.png",
+      "size": 519,
+      "sha256": "7cd0bfd56b46f32cce6685f144b1594791b27cd1101287022e846353425f9924",
       "policy": "managed"
     },
     {
@@ -226,6 +244,42 @@
       "path": "kubejs/assets/kubejs/textures/item/trofeo_desgarradores_3.png",
       "size": 1919800,
       "sha256": "239cf6683ceefcf26532ede7dc26e0a8b5689227fdb6501f6590da41e314e6ec",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/armor/coraza_ventisca_layer_1.png",
+      "size": 743,
+      "sha256": "77fc65d16a99a1bf5fb4a623b902fcf6f39d7502172972efdcbd2ccd09da0435",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/item/hacha_del_cazador_model.json",
+      "size": 631,
+      "sha256": "203d21883be7187f400ae476ec8be9b4f3c379f1934eac691f88fe9c233d7b16",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/item/hacha_del_cazador.json",
+      "size": 113,
+      "sha256": "a379c2850f106ea805f6fa8fb2716cd85af636a7eb79fdc4ca8a741ed5b54de9",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/item/trofeo_desgarradores_1.json",
+      "size": 119,
+      "sha256": "b07ac33dc8aea473a0e84d264140c481674e9027249f72aaf8ad3aa90e7f4985",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/item/trofeo_desgarradores_2.json",
+      "size": 119,
+      "sha256": "6408b305a11ca14e737482878e2f4f3928a6e7b08714e31ab96906f708f6dd92",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/models/item/trofeo_desgarradores_3.json",
+      "size": 119,
+      "sha256": "eba66a0bd0aa3f78d9f54a0e1b49e2f2920072830bca003db1d334df64d88a5e",
       "policy": "managed"
     },
     {
@@ -286,6 +340,12 @@
       "path": "kubejs/startup_scripts/gran_helada_enemigos.js",
       "size": 6425,
       "sha256": "b37bbe3e66b680a51444683d09fc925f8e591829bcbfc241ef1cae9a41614c47",
+      "policy": "managed"
+    },
+    {
+      "path": "kubejs/startup_scripts/gran_helada_recompensas.js",
+      "size": 4946,
+      "sha256": "13bb4b46bece818be7feb49100a7813b19b29c381aef4131c5742a4be7e2e767",
       "policy": "managed"
     },
     {
