@@ -1,0 +1,239 @@
+// ============================================================
+// PEPAWORLD 3.0
+// LA GRAN HELADA - RECOMPENSAS
+// Minecraft 1.21.1 / KubeJS 2101
+// ============================================================
+
+
+// ============================================================
+// JAVA
+// ============================================================
+
+const ArmorType = Java.loadClass(
+    'net.minecraft.world.item.ArmorItem$Type'
+)
+
+const HashMap = Java.loadClass(
+    'java.util.HashMap'
+)
+
+
+// ============================================================
+// MATERIAL DE ARMADURA - CORAZA DE LA VENTISCA
+// ============================================================
+
+StartupEvents.registry('minecraft:armor_material', event => {
+
+    let defensa = new HashMap()
+
+    defensa.put(
+        ArmorType.BOOTS,
+        2
+    )
+
+    defensa.put(
+        ArmorType.LEGGINGS,
+        5
+    )
+
+    defensa.put(
+        ArmorType.CHESTPLATE,
+        6
+    )
+
+    defensa.put(
+        ArmorType.HELMET,
+        2
+    )
+
+    defensa.put(
+        ArmorType.BODY,
+        5
+    )
+
+
+    event.create(
+        'coraza_ventisca'
+    )
+
+        // Defensa de la pechera = 6
+        .defense(
+            defensa
+        )
+
+        .enchantmentValue(
+            12
+        )
+
+        // Reparación mediante tag.
+        // La tag contiene Fragmentos de Escarcha.
+        .repairIngredient(
+            () => Ingredient.of(
+                '#pepaworld:repara_escarcha'
+            )
+        )
+
+        // Entre hierro y diamante.
+        .toughness(
+            1
+        )
+
+        .knockbackResistance(
+            0
+        )
+})
+
+
+// ============================================================
+// TIER - HACHA DE ESCARCHA DEL HOYO
+// ============================================================
+
+ItemEvents.toolTierRegistry(event => {
+
+    event.add(
+        'hacha_escarcha',
+        tier => {
+
+            // Durabilidad
+            tier.setUses(
+                420
+            )
+
+            // Velocidad de minado
+            tier.setSpeed(
+                7
+            )
+
+            // El hacha tiene 6 de baseline.
+            // 6 + 2 = 8 de daño.
+            tier.setAttackDamageBonus(
+                2
+            )
+
+            tier.setEnchantmentValue(
+                12
+            )
+
+            // Reparación mediante tag.
+            tier.setRepairIngredient(
+                Ingredient.of(
+                    '#pepaworld:repara_escarcha'
+                )
+            )
+        }
+    )
+})
+
+
+// ============================================================
+// REGISTRO DE OBJETOS
+// ============================================================
+
+StartupEvents.registry('item', event => {
+
+
+    // ========================================================
+    // CORAZA DE LA VENTISCA
+    // ========================================================
+
+    event.create(
+        'coraza_ventisca',
+        'chestplate'
+    )
+
+        .displayName(
+            'Coraza de la Ventisca'
+        )
+
+        .material(
+            'kubejs:coraza_ventisca'
+        )
+
+        // Durabilidad acordada
+        .maxDamage(
+            320
+        )
+
+        .texture(
+            'kubejs:item/gran_helada/coraza_ventisca'
+        )
+
+        .unstackable()
+
+        .rarity(
+            'rare'
+        )
+
+        .tooltip(
+            '§bRecompensa de La Gran Helada'
+        )
+
+
+    // ========================================================
+    // HACHA DE ESCARCHA DEL HOYO
+    // ========================================================
+
+    event.create(
+        'hacha_escarcha_del_hoyo',
+        'axe'
+    )
+
+        .displayName(
+            'Hacha de Escarcha del Hoyo'
+        )
+
+        .tier(
+            'hacha_escarcha'
+        )
+
+        // 6 base + 2 del tier = 8
+        .attackDamageBaseline(
+            6
+        )
+
+        // Golpe relativamente lento
+        .speedBaseline(
+            -3.1
+        )
+
+        .texture(
+            'kubejs:item/gran_helada/hacha_escarcha_del_hoyo'
+        )
+
+        .unstackable()
+
+        .rarity(
+            'rare'
+        )
+
+        .tooltip(
+            '§bRecompensa de La Gran Helada'
+        )
+
+
+    // ========================================================
+    // CORAZÓN DE LA GRAN HELADA
+    // ========================================================
+
+    event.create(
+        'corazon_gran_helada'
+    )
+
+        .displayName(
+            'Corazón de la Gran Helada'
+        )
+
+        .texture(
+            'kubejs:item/gran_helada/corazon_gran_helada'
+        )
+
+        .unstackable()
+
+        .rarity(
+            'epic'
+        )
+
+        .tooltip(
+            '§bProtección total contra el frío de La Gran Helada'
+        )
+})
