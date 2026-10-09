@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 16,
-  "updatedAt": "2026-10-05T20:21:19.269Z",
+  "revision": 17,
+  "updatedAt": "2026-10-09T17:55:03.328Z",
   "news": [
     {
       "id": "la-gran-helada-2026-09",
@@ -87,15 +87,15 @@
     },
     {
       "id": "manager-251be542-56d4-4ba1-866f-9517cc29fa1f",
-      "enabled": false,
+      "enabled": true,
       "priority": "urgent",
-      "title": "Server en Mantenimiento hasta las 16:00 aprox.",
+      "title": "El server cerrara el dia 13/10/26, no es el fin solo unas vacaciones. ",
       "publishedAt": "2026-09-28T12:55:54.539Z",
       "activeFrom": "2026-09-25T20:00:00+02:00",
       "activeUntil": null,
       "image": "",
       "images": [],
-      "message": ""
+      "message": "Volveremos aprox para noviembre ;)"
     }
   ],
   "branding": {
